@@ -44,6 +44,9 @@ Our data model consists of 14 unique entities:
 
 *(Below is a sample of our data dictionary.  Please see the full PDF/Excel file in the repository for all 14 tables).*
 
+<img width="618" height="194" alt="staffrole" src="https://github.com/user-attachments/assets/2f62e4d8-a244-4788-8353-ff487d06cbe9" />
+
+
 ### Table: `Result`
 
 | **Column Name** | **Data Type** | **Key** | **Description** | 
