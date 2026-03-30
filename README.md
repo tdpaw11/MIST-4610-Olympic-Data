@@ -124,9 +124,12 @@ Lists every country alongside the total count of athletes they sent to the Olymp
 Calculates the total number of registered staff members assigned to each specific job role (e.g., Head Coach, Assistant Coach, Medical).
 
 ### Query 5: Athletes Competing in Multiple Sports (Comp.)
+<img width="773" height="127" alt="Screenshot 2026-03-30 at 2 02 45 PM" src="https://github.com/user-attachments/assets/b0067bac-c7f4-4326-a6b5-ded96930e6d7" />
+<br>
+<img width="280" height="214" alt="Screenshot 2026-03-30 at 2 03 11 PM" src="https://github.com/user-attachments/assets/c47ed7ea-8563-4f0d-9a94-a0160d27c352" />
 
 **Description:** 
-A composite list of every athlete that competes in more than one sport.
+A composite list of every athlete that competes in more than one sport. (In this scenario, we modified to only include Atheletes that are in 3 or more sports because the original output would've been to long to display)
 
 ### Query 6: Events Operating Below 50% Capacity (Comp.)
 
