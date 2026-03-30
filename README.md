@@ -97,6 +97,7 @@ Our data model consists of 14 unique entities:
 
 **Description:** 
 Identifies which countries are performing the best overall by calculating the total number of medals won by their athletic delegation.
+Query 1 allows managers or olympic fans to conscisely view the number of medals each country has been awarded. This is useful to assess which countries are in the lead by number of medals won. This allows country's olympic success to be compared and ranked in a simple manner, exlcuding factors other than event results. Query 1  allows a manager to analyze a country as a whole, including every event. This compares countries regardless of how many events they compete in but rather how they have competed in the olympics in its entirety.
 
 ### Query 2: Average Ticket Price per Sport (Simple)
 <img width="550" height="148" alt="Screenshot 2026-03-30 at 1 19 47 PM" src="https://github.com/user-attachments/assets/2a370085-8498-4c9d-b4a2-8e33008f71bd" />
