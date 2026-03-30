@@ -160,6 +160,9 @@ Determine and list the countries that have a greater number of medals than staff
 **Justification:**
 
 ### Query 9: Oldest Medalists per Sport (Comp.)
+<img width="849" height="211" alt="Screenshot 2026-03-30 at 2 36 37 PM" src="https://github.com/user-attachments/assets/13d232a7-1fac-4f5a-a93d-4dc0d41c6e11" />
+<br>
+<img width="285" height="257" alt="Screenshot 2026-03-30 at 2 36 59 PM" src="https://github.com/user-attachments/assets/00728937-ae87-4d56-82c3-31007bec8e62" />
 
 **Description:** 
 List the oldest medalists for each sport and include their name, age, and host country. 
