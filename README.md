@@ -138,10 +138,10 @@ Calculates the total number of registered staff members assigned to each specifi
 A composite list of every athlete that competes in more than one sport. (In this scenario, we modified to only include Atheletes that are in 3 or more sports because the original output would've been to long to display)
 **Justification:**
 
-### Query 6: Events Operating Below 50% Capacity (Comp.)
+### Query 6: Events with Above-Average Ticket Prices (Comp.)
 
 **Description:** 
- List which event’s attendance was below 50% full or the events where only half the seats were filled by spectators.
+Identifies "Premium" events by calculating the average ticket price for each event and using a subquery to only list those that are strictly higher than the overall global average ticket price.
 **Justification:**
 
 ### Query 7: Gold Medal Countries with No Registered Staff (Comp.)
@@ -174,5 +174,5 @@ List the oldest medalists for each sport and include their name, age, and host c
 <img width="372" height="497" alt="Screenshot 2026-03-30 at 3 08 55 PM" src="https://github.com/user-attachments/assets/32802725-1dbb-4320-9d90-b6684a087c55" />
 
 **Description:**
-Utilizes a recursive self-join to list all "Assistant Coaches" alongside the specific First and Last name of the "Head Coach" they report to.
+Utilizes a recursive self-join and an aggregate function to list every Supervisor alongside the exact count of how many subordinate staff members report directly to them.
 **Justification:**
