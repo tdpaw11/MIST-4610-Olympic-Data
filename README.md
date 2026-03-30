@@ -147,7 +147,7 @@ List the countries that have been awarded a Gold medal but do not have any regis
 <img width="156" height="96" alt="Screenshot 2026-03-30 at 2 25 38 PM" src="https://github.com/user-attachments/assets/385101ed-333d-4f20-b858-207179f9624d" />
 
 **Description:** 
-Determine and list the countries that have a greater number of staff members than medals won relative to that country. 
+Determine and list the countries that have a greater number of medals than staff members relative to that country. 
 
 ### Query 9: Oldest Medalists per Sport (Comp.)
 
