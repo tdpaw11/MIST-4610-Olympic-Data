@@ -191,9 +191,9 @@ Query 8 is useful for managers to view a concise list of the countries that have
 **Description:** 
 Query 9 lists the oldest medal-winning athlete for each sport, their name, and age as of March 31, 2026. The query joins the Sport, Event, Results, and Athlete tables and filters for medal-winning results only. A correlated subquery in the WHERE clause finds the earliest date of birth among the medalist in each sport and only athletes matching that minimum birth date will be returned. The results are ordered alphabetically by sport name.
 <br>
-<img width="849" height="211" alt="Screenshot 2026-03-30 at 2 36 37 PM" src="https://github.com/user-attachments/assets/13d232a7-1fac-4f5a-a93d-4dc0d41c6e11" />
+<img width="954" height="230" alt="Screenshot 2026-03-31 at 11 00 31 AM" src="https://github.com/user-attachments/assets/47937f92-7f0b-459a-b211-0d22d75d6a88" />
 <br>
-<img width="285" height="257" alt="Screenshot 2026-03-30 at 2 36 59 PM" src="https://github.com/user-attachments/assets/00728937-ae87-4d56-82c3-31007bec8e62" />
+<img width="433" height="254" alt="Screenshot 2026-03-31 at 11 00 51 AM" src="https://github.com/user-attachments/assets/f0ef3a3d-be39-42ca-9d88-5e5b040efefe" />
 
 **Justification:**
 Query 9 shows a manager an itemized list by sport, the oldest olympian’s name, age and host country. This could be useful for coordinators or broadcasters to recognize by name and host country the oldest Olympian competing in each sport. Using this query, each sport could be compared to determine which sport has the oldest competing olympian or to determine how many countries have the same aged oldest olympian. 
