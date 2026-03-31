@@ -91,24 +91,24 @@ Our data model consists of 14 unique entities:
 ## Ten Advanced Queries
 
 ### Query 1: Total Medals by Country (Simple)
+
+**Description:** 
+Query 1 lists the total number of medals won by each country while ordering the from highest amount to lowest. This query joins together the Country, Athlete, and Results tables in order to count the number of medals associated with each country's athletes. The results are filtered to only include rows where a medal was awardded. Then that data is grouped by country name and ordered in descending order of total medals won.
+<br>
 <img width="581" height="107" alt="Screenshot 2026-03-30 at 1 01 52 PM" src="https://github.com/user-attachments/assets/221683af-c035-40e1-b682-72830c30c22a" /> 
 <br>
 <img width="158" height="198" alt="Screenshot 2026-03-30 at 1 02 19 PM" src="https://github.com/user-attachments/assets/922fbfc8-1ad6-4116-a6d6-adbbab706703" />
-
-**Description:** 
-Query 1 lists the total number of medals won by each country while ordering the from highest amount to lowest. This query joins together Country, Athlete, and Results tables in order to count the number of medals associated with each country's athletes. The results are filtered to only include rows where a medal was awardded. Then that data is grouped by country name and ordered in descending order of total medals won.
-<br>
 **Justification:**
 Query 1 allows managers or olympic fans to conscisely view the number of medals each country has been awarded. This is useful to assess which countries are in the lead by number of medals won. This allows country's olympic success to be compared and ranked in a simple manner, exlcuding factors other than event results. Query 1  allows a manager to analyze a country as a whole, including every event. This compares countries regardless of how many events they compete in but rather how they have competed in the olympics in its entirety.
 
 ### Query 2: Average Ticket Price per Sport (Simple)
+
+**Description:** 
+Query 2 lists the average ticket price per sport while ordering them from highest price to lowest. The query joins together the Sport, Event, EventSession, Session, and Ticket tables in order to calculate tge average price of tickets associated with each sport. The results are then grouped by sport and ordered in descending order of average ticket price.
+<br>
 <img width="550" height="148" alt="Screenshot 2026-03-30 at 1 19 47 PM" src="https://github.com/user-attachments/assets/2a370085-8498-4c9d-b4a2-8e33008f71bd" />
 <br>
 <img width="250" height="258" alt="Screenshot 2026-03-30 at 1 20 19 PM" src="https://github.com/user-attachments/assets/b1dedcfd-492d-47f1-ab5a-2c47310b6037" />
-
-**Description:** 
-Determine the average ticket price per sport by looking at every event that has occurred and the ticket price.
-<br>
 **Justification:**
 Query 2 gives a manager perspective on event sporting event's ticket pricing. This query provides conglomerated data on the varying ticket prices across events. This provides comparable pricing data, displaying which events are more costly than others. It could also indicate which event's tickets may be in higher demand- indicated by a higher ticket price. This could provide insight into why certain events are attended more or less than others and which events that spectators would pay a higher ticket price for. 
 
