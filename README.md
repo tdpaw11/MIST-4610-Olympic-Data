@@ -114,7 +114,7 @@ Query 2 lists the average ticket price per sport while ordering them from highes
 **Justification:**
 Query 2 gives a manager perspective on event sporting event's ticket pricing. This query provides conglomerated data on the varying ticket prices across events. This provides comparable pricing data, displaying which events are more costly than others. It could also indicate which event's tickets may be in higher demand- indicated by a higher ticket price. This could provide insight into why certain events are attended more or less than others and which events that spectators would pay a higher ticket price for. 
 
-### Query 3: Total Athletes Registered per Country (Simple)
+### Query 3: 500m, 1000m, and 1500m Events by Gender (Simple)
 
 **Description:** 
 Query 3 lists the disctinct event names, gender categories, and associated sport name for all events that are short-to-mid distance races (500m, 1000m, 1500m). The query joins the Event and Sport table and then filters the results using a regulat expression to match only events with those distances in their names. The results are ordered alphabetically by event name and then by event gender. 
