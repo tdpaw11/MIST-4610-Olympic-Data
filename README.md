@@ -147,9 +147,6 @@ A composite list of every athlete that competes in more than one sport. (In this
 **Justification:**
 
 ### Query 6: Events with Above-Average Ticket Prices (Comp.)
-<img width="651" height="168" alt="Screenshot 2026-03-30 at 3 54 48 PM" src="https://github.com/user-attachments/assets/861b8bdb-dc54-4db3-91c3-d3b5844757f2" />
-<br>
-<img width="411" height="444" alt="Screenshot 2026-03-30 at 3 55 47 PM" src="https://github.com/user-attachments/assets/a106f671-8d86-400d-a1ef-85f0ec7068d3" />
 
 **Description:** 
 Query 6 identifies the "Premium" events by listing all events whose average ticket price is above the overall average ticket price across all tickets. The query joins the Event, Sport, EventSession, Session and Tickets tables to calculate the average ticket price per event. A subquery is used in a HAVING clause to calculate the global average ticket price. Only events with average ticket prices exceeding that threshold are included. The results are ordered by averge event price in descending order and then by gender in ascending order.
@@ -161,13 +158,14 @@ Query 6 identifies the "Premium" events by listing all events whose average tick
 **Justification:**
 
 ### Query 7: Staff Managing Multiple Athletes (Comp.)
+
+**Description:** 
+Query 7 lists all staff members who are assigned to manage 3 or more athletes, their role, and the total number of athletes assigned to them. The query joins the Staff, StaffRole, and AthleteStaff tables to count the number of athletes associated with each staff member. The results are grouped by staff member and filtered using a HAVING clause to only include staff members with 3 or more athletes. Then, the data is ordered in descending order by the number of athletes assigned.
+<br>
 <img width="816" height="127" alt="Screenshot 2026-03-30 at 4 01 29 PM" src="https://github.com/user-attachments/assets/928b154f-e2e0-499c-b10c-e3d3280f5175" />
 <br>
 <img width="333" height="250" alt="Screenshot 2026-03-30 at 4 01 42 PM" src="https://github.com/user-attachments/assets/bb185563-90d4-4cee-99b5-cb5d61851f44" />
 
-**Description:** 
-Uses the AthleteStaff bridge table to identify high-level staff members who are individually assigned to manage or care for three or more different athletes, alongside their specific role.
-<br>
 **Justification:**
 
 ### Query 8: Countries with More Medals than Staff (Comp.)
