@@ -149,7 +149,7 @@ A composite list of every athlete that competes in more than one sport. (In this
 ### Query 6: Events with Above-Average Ticket Prices (Comp.)
 
 **Description:** 
-Query 6 identifies the "Premium" events by listing all events whose average ticket price is above the overall average ticket price across all tickets. The query joins the Event, Sport, EventSession, Session and Tickets tables to calculate the average ticket price per event. A subquery is used in a HAVING clause to calculate the global average ticket price. Only events with average ticket prices exceeding that threshold are included. The results are ordered by averge event price in descending order and then by gender in ascending order.
+Query 6 identifies the "Premium" events by listing all events whose average ticket price is above the overall average ticket price across all tickets. The query joins the Event, Sport, EventSession, Session and Tickets tables to calculate the average ticket price per event. A subquery is used in a HAVING clause to calculate the global average ticket price. Only events with average ticket prices exceeding that threshold are included. The results are ordered by average event price in descending order and then by gender in ascending order.
 <br>
 <img width="651" height="168" alt="Screenshot 2026-03-30 at 3 54 48 PM" src="https://github.com/user-attachments/assets/861b8bdb-dc54-4db3-91c3-d3b5844757f2" />
 <br>
@@ -169,13 +169,14 @@ Query 7 lists all staff members who are assigned to manage 3 or more athletes, t
 **Justification:**
 
 ### Query 8: Countries with More Medals than Staff (Comp.)
+
+**Description:** 
+Query 8 lists all countries where the total number of medals won is greater than the total number of staff members associated with that country. Two correlated subqueries are used within the WHERE clause. One to count the staff members per country and another to count the medal-winning results for the country's athletes by joining the Results and Athletes tables. That is filtered for gold, silver, and bronze medals. Only countries where the medal count exceeds the staff count are returned. 
+<br>
 <img width="896" height="86" alt="Screenshot 2026-03-30 at 2 25 15 PM" src="https://github.com/user-attachments/assets/9a3a2479-c7a8-47ef-954d-82b0280fac1e" />
 <br>
 <img width="156" height="96" alt="Screenshot 2026-03-30 at 2 25 38 PM" src="https://github.com/user-attachments/assets/385101ed-333d-4f20-b858-207179f9624d" />
 
-**Description:** 
-Determine and list the countries that have a greater number of medals than staff members relative to that country. 
-<br>
 **Justification:**
 
 ### Query 9: Oldest Medalists per Sport (Comp.)
